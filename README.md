@@ -6,15 +6,15 @@ AI product leader with a decade building enterprise AI/ML products — bridging 
 
 ## What I Build & Why
 
-Most tools are built around what's easy to build. I try to start from what's hard to decide.
+Most tools are built around what's easy to build. I start from what's hard to decide.
 
-The right question isn't "what can AI do?" It's "where is someone making an important decision with bad information, a broken process, or no tool at all?" That's the problem worth solving.
+The right question isn't "what can AI do?" It's "where is someone making an important decision badly — with incomplete information, no process, or a workaround they've stopped questioning?"
 
-**The signal is structural pain.** Not inconvenience — structural failure. When the workaround *is* the workflow. When a spreadsheet is load-bearing. When the process scales with human effort instead of with data. That's where a real product lives.
+**Look for where people are stuck, not where they're asking for help.** Real problems rarely announce themselves. They show up as things everyone accepts — a spreadsheet doing the job of a system, a manual process that grows with headcount instead of automating it. The tool that should exist doesn't, because no one stopped to ask why the workaround exists.
 
-**The output is always a decision.** Not a dashboard. Not a report. A decision: buy or pass, apply or skip, hold or restructure. Every design choice I make is in service of collapsing the distance between raw information and confident action.
+**Every output should enable a decision.** Not a dashboard. Not a report. A decision: buy or pass, apply or skip, hold or restructure. If someone reads the output and still doesn't know what to do next, the tool isn't finished.
 
-**Good tools change how you think, not just what you do.** The best ones force you to make your assumptions explicit — and in doing that, they sharpen your judgment on the next problem, not just the current one.
+**The best tools change how you think, not just what you do.** They surface assumptions you didn't know you were making. They make you sharper on the next problem — not just faster on this one.
 
 AI removes the cost of building. What it can't replace is knowing which problem is worth solving.
 
