@@ -6,11 +6,17 @@ AI product leader with a decade building enterprise AI/ML products — bridging 
 
 ## What I Build & Why
 
-Start from the outcome, not the solution. The question isn't "what can I build?" — it's "what decision is currently being made badly?"
+Most tools are built around what's easy to build. I try to start from what's hard to decide.
 
-- **Structural pain, not surface pain** — the signal is when a workaround *is* the workflow. A spreadsheet doing the job of a system. That's the gap.
-- **Output = a decision, not a report** — buy or pass, apply or skip, hold or exit. Good tools collapse the time between data and action.
-- **Does it compound?** — the best tools sharpen thinking on the next problem, not just solve the current one.
+The right question isn't "what can AI do?" It's "where is someone making an important decision with bad information, a broken process, or no tool at all?" That's the problem worth solving.
+
+**The signal is structural pain.** Not inconvenience — structural failure. When the workaround *is* the workflow. When a spreadsheet is load-bearing. When the process scales with human effort instead of with data. That's where a real product lives.
+
+**The output is always a decision.** Not a dashboard. Not a report. A decision: buy or pass, apply or skip, hold or restructure. Every design choice I make is in service of collapsing the distance between raw information and confident action.
+
+**Good tools change how you think, not just what you do.** The best ones force you to make your assumptions explicit — and in doing that, they sharpen your judgment on the next problem, not just the current one.
+
+AI removes the cost of building. What it can't replace is knowing which problem is worth solving.
 
 → [Full framework: How I Build with AI](PHILOSOPHY.md)
 
