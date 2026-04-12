@@ -6,14 +6,11 @@ AI product leader with a decade building enterprise AI/ML products — bridging 
 
 ## What I Build & Why
 
-**How I decide what to build**
+Start from the outcome, not the solution. The question isn't "what can I build?" — it's "what decision is currently being made badly?"
 
-Start from the outcome, not the solution. Before a line of code, I ask: what decision or action does this enable — and is that decision currently being made badly?
-
-- **Is the pain structural or symptomatic?** Symptomatic pain has workarounds. Structural pain means the workaround *is* the workflow — a spreadsheet doing the job of a system, a manual process that scales with headcount. That's the gap worth closing.
-- **Do I have the domain context to know when it's wrong?** I only build where I can evaluate the output without a spec. Finance, real estate, and PM practice are areas I've made real decisions in — which means I know what "off" looks like before a user tells me.
-- **What does the user actually need to do next?** The output isn't a dashboard or a report. It's a decision: buy or pass, apply or skip, restructure or hold. Every design choice should compress the time between data and action.
-- **Will this compound?** The best tools sharpen your thinking on the next problem. A retirement model that forces you to define your own assumptions is worth more than one that just runs the math.
+- **Structural pain, not surface pain** — the signal is when a workaround *is* the workflow. A spreadsheet doing the job of a system. That's the gap.
+- **Output = a decision, not a report** — buy or pass, apply or skip, hold or exit. Good tools collapse the time between data and action.
+- **Does it compound?** — the best tools sharpen thinking on the next problem, not just solve the current one.
 
 → [Full framework: How I Build with AI](PHILOSOPHY.md)
 
