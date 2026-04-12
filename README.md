@@ -4,16 +4,6 @@ AI product leader. I build first-principles tools at the intersection of AI, qua
 
 ---
 
-<table width="100%">
-  <tr>
-    <td width="33%" align="center"><img src="screenshots/Curalike2.png" height="220"/></td>
-    <td width="33%" align="center"><img src="screenshots/Stock1.png" height="220"/></td>
-    <td width="34%" align="center"><img src="screenshots/JobSearch_InterviewFunnel_2.png" height="220"/></td>
-  </tr>
-</table>
-
----
-
 ## Work
 Product executive and 0→1 specialist with a decade of experience building and scaling enterprise-wide AI/ML data products. Landed a pivotal Revenue Risk & Retention Engine, transforming it from a niche tool to an intelligence platform covering $40B in revenue. Proven leader in bridging business strategy (P&L, NRR), data science (ML/LLM), and scalable systems architecture to drive $XXXM in business value.
 
