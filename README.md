@@ -6,7 +6,7 @@ AI product leader with a decade building enterprise AI/ML products — bridging 
 
 ## What I Build & Why
 
-I don't build to explore technology. I build to collapse the gap between a problem I understand deeply and a solution that didn't exist before.
+I build to collapse the gap between a problem I understand deeply and a solution that didn't exist before.
 
 **How I decide what to build**
 - **Personal domain fluency first** — I only build in domains where I have enough context to know when the output is wrong. Real estate, quant finance, and PM workflows are areas I've operated in, not researched.
