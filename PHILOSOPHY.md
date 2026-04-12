@@ -2,6 +2,29 @@
 
 ---
 
+## What to Build (The Product)
+
+Once syntax is off the table, the focus shifts entirely to product judgment.
+
+**Insight Over Code**
+AI levels the playing field on implementation. The moat is no longer the code — it's unique insight into the problem space, user pain points, and market gaps. The AI synthesizes; you decide what's worth building.
+
+**Style (The Un-Promptable Quality)**
+Unconstrained, AI produces generic output. Enforcing style requires opinionated design systems and strict component libraries — forcing the AI to build with your blocks, not invent its own.
+
+**The Feedback Loop (Speed is Oxygen)**
+Idea → Prompt → Render → Critique must complete in under 10 seconds. Hot-reload and instant previews are not nice-to-haves; they are the conditions under which this workflow functions.
+
+**Multi-Persona Development**
+Use the AI across roles, not just as a developer:
+- *Tech:* "Optimize this query for millions of rows."
+- *Business:* "Where will a non-technical user drop off in this flow?"
+- *QA:* "Find edge cases in this form submission."
+
+Rotating personas accelerates maturity faster than linear development.
+
+---
+
 ## How to Build (The Engine)
 
 The goal is an AI that has enough context to act autonomously, but enough constraint to avoid hallucinating the codebase into a corner.
@@ -29,29 +52,6 @@ Three tiers:
 - Deterministic: unit and integration tests
 - Heuristic: linting and static analysis
 - LLM-as-Judge: a separate prompt that asks "Does this output conform to the style guide in `lat.md`?"
-
----
-
-## What to Build (The Product)
-
-Once syntax is off the table, the focus shifts entirely to product judgment.
-
-**Insight Over Code**
-AI levels the playing field on implementation. The moat is no longer the code — it's unique insight into the problem space, user pain points, and market gaps. The AI synthesizes; you decide what's worth building.
-
-**Style (The Un-Promptable Quality)**
-Unconstrained, AI produces generic output. Enforcing style requires opinionated design systems and strict component libraries — forcing the AI to build with your blocks, not invent its own.
-
-**The Feedback Loop (Speed is Oxygen)**
-Idea → Prompt → Render → Critique must complete in under 10 seconds. Hot-reload and instant previews are not nice-to-haves; they are the conditions under which this workflow functions.
-
-**Multi-Persona Development**
-Use the AI across roles, not just as a developer:
-- *Tech:* "Optimize this query for millions of rows."
-- *Business:* "Where will a non-technical user drop off in this flow?"
-- *QA:* "Find edge cases in this form submission."
-
-Rotating personas accelerates maturity faster than linear development.
 
 ---
 
