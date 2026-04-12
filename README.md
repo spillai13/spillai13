@@ -6,13 +6,13 @@ AI product leader with a decade building enterprise AI/ML products — bridging 
 
 ## What I Build & Why
 
+**Building forces clarity that thinking alone doesn't.** Every project requires making assumptions explicit — what does "good" look like, which tradeoffs matter, where AI helps vs. misleads. That accumulates into judgment you can't get any other way.
+
+**Good decisions are rarely a single moment.** They're the result of deep thinking, translating an observation into a hypothesis, testing it against reality, and iterating. Most tools deliver an answer. The ones worth building support the full cycle — from a messy observation to a confident, well-reasoned action.
+
+**People rarely ask for the right thing.** They ask for relief from a symptom. The real problem is usually one layer deeper — a workaround everyone has stopped questioning, a spreadsheet doing the job of a system. That gap between what exists and what should exist is where I look.
+
 The hardest part of building isn't the build — it's knowing which problem is worth solving.
-
-**People rarely ask for the right thing.** They ask for relief from a symptom. The real problem is usually one layer deeper — a workaround everyone has accepted, a spreadsheet doing the job of a system. That gap between what exists and what should exist is where I look for problems worth solving.
-
-**Information without a clear next action is just noise.** Every tool I build is designed around a specific decision: buy or pass, apply or skip, hold or restructure. If someone reads the output and still doesn't know what to do next, the design isn't finished.
-
-**Building forces clarity that thinking alone doesn't.** Each project requires making assumptions explicit — what does "good" look like, which tradeoffs matter, where AI helps vs. misleads. That accumulates. The output is tools. The real product is sharper judgment on the next problem.
 
 → [Full framework: How I Build with AI](PHILOSOPHY.md)
 
