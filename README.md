@@ -1,6 +1,6 @@
 # Spillai
 
-AI product leader. I build first-principles tools at the intersection of AI, quantitative finance, and real estate — prioritizing structural integrity and long-term ROI over quick fixes.
+AI product leader. I build first-principles tools at the intersection of AI and finance — prioritizing structural integrity and long-term ROI over quick fixes.
 
 ---
 
