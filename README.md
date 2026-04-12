@@ -6,7 +6,7 @@ AI product leader with a decade building enterprise AI/ML products — bridging 
 
 ## What I Build & Why
 
-**Building forces clarity that thinking alone doesn't.** Every project requires making assumptions explicit — what does "good" look like, which tradeoffs matter, where AI helps vs. misleads. That accumulates into judgment you can't get any other way.
+**Building forces clarity that thinking alone doesn't.** Every project requires making assumptions explicit — what does good look like, which tradeoffs matter, where AI helps vs. misleads. That accumulates into judgment you can't get any other way.
 
 **Good decisions are rarely a single moment.** They're the result of deep thinking, translating an observation into a hypothesis, testing it against reality, and iterating. Most tools deliver an answer. The ones worth building support the full cycle — from a messy observation to a confident, well-reasoned action.
 
