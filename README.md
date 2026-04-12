@@ -2,7 +2,7 @@
 
 Product executive and 0→1 specialist with a decade of experience building and scaling enterprise-wide AI/ML data products. Landed a pivotal Revenue Risk & Retention Engine, transforming it from a niche tool to an intelligence platform covering $40B in revenue. Proven leader in bridging business strategy (P&L, NRR), data science (ML/LLM), and scalable systems architecture to drive $XXXM in business value. I build first-principles tools at the intersection of AI and finance — prioritizing structural integrity and long-term ROI over quick fixes.
 
-This repo is a working record of how I think, not just what I ship. Most of what's here sits at the intersection of domains I operate in — quantitative finance, real estate, and PM practice — built to solve problems I couldn't find good tools for. You'll see the full stack: data pipelines, LLM-powered research frameworks, investment dashboards, and decision-support tools. Each project reflects a specific gap, a deliberate build decision, and a point of view on what AI can and can't do.
+What you see here is the output — dashboards, signals, and decision tools I actually use. This is where I tinker and pressure-test my mental models, staying sharp on how AI behaves when applied to real problems. Building is how I maintain the judgment to make better product decisions: what to prioritize, where AI adds leverage, and where it breaks down.
 
 ---
 
