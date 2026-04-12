@@ -1,8 +1,6 @@
 # Spillai
 
-Product executive and 0→1 specialist with a decade of experience building and scaling enterprise-wide AI/ML data products. Landed a pivotal Revenue Risk & Retention Engine, transforming it from a niche tool to an intelligence platform covering $40B in revenue. Proven leader in bridging business strategy (P&L, NRR), data science (ML/LLM), and scalable systems architecture to drive $XXXM in business value. I build first-principles tools at the intersection of AI and finance — prioritizing structural integrity and long-term ROI over quick fixes.
-
-What you see here is the output — dashboards, signals, and decision tools I actually use. This is where I tinker and pressure-test my mental models, staying sharp on how AI behaves when applied to real problems. Building is how I maintain the judgment to make better product decisions: what to prioritize, where AI adds leverage, and where it breaks down.
+AI product leader with a decade building enterprise AI/ML products — bridging business strategy, data science, and systems architecture to drive measurable outcomes. I build personal tools at the intersection of AI and finance to pressure-test my mental models and stay sharp on where AI adds leverage and where it breaks down.
 
 ---
 
@@ -20,16 +18,6 @@ I don't build to explore technology. I build to collapse the gap between a probl
 > *If a capable engineer had infinite time, would they build this for themselves?* If yes, it's probably not differentiated. The interesting problems are the ones where domain knowledge — not engineering skill — is the bottleneck.
 
 → [Full framework: How I Build with AI](PHILOSOPHY.md)
-
----
-
-## How I Build
-
-- **Route by task complexity** — long-context models for architecture reasoning, fast/cheap models for pattern completion
-- **Knowledge graph as executable context** — a living `lat.md` maps service relationships and business logic; relevant sections inject dynamically into every prompt
-- **Agents with hands** — tool-calling over AST parsing, targeted file reads, and terminal output
-- **Three-tier evals** — deterministic tests, heuristic linting, and LLM-as-Judge against the style guide
-- **Feedback loop under 10 seconds** — Idea → Prompt → Render → Critique; anything slower kills the workflow
 
 ---
 
