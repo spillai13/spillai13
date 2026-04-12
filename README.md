@@ -1,11 +1,6 @@
 # Spillai
 
-AI product leader. I build first-principles tools at the intersection of AI and finance — prioritizing structural integrity and long-term ROI over quick fixes.
-
----
-
-## Work
-Product executive and 0→1 specialist with a decade of experience building and scaling enterprise-wide AI/ML data products. Landed a pivotal Revenue Risk & Retention Engine, transforming it from a niche tool to an intelligence platform covering $40B in revenue. Proven leader in bridging business strategy (P&L, NRR), data science (ML/LLM), and scalable systems architecture to drive $XXXM in business value.
+Product executive and 0→1 specialist with a decade of experience building and scaling enterprise-wide AI/ML data products. Landed a pivotal Revenue Risk & Retention Engine, transforming it from a niche tool to an intelligence platform covering $40B in revenue. Proven leader in bridging business strategy (P&L, NRR), data science (ML/LLM), and scalable systems architecture to drive $XXXM in business value. I build first-principles tools at the intersection of AI and finance — prioritizing structural integrity and long-term ROI over quick fixes.
 
 ---
 
