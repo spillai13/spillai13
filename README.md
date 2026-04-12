@@ -14,7 +14,7 @@ The right question isn't "what can AI do?" It's "where is someone making an impo
 
 **Every output should enable a decision.** Not a dashboard. Not a report. A decision: buy or pass, apply or skip, hold or restructure. If someone reads the output and still doesn't know what to do next, the tool isn't finished.
 
-**The best tools change how you think, not just what you do.** They surface assumptions you didn't know you were making. They make you sharper on the next problem — not just faster on this one.
+**Each project builds the judgment I bring to the next one.** Building a stock screener forces you to define what "good" looks like quantitatively. A retirement model forces you to make your assumptions about risk explicit. That accumulated understanding — of domains, tradeoffs, and where AI helps vs. misleads — is what sharpens the next product decision. The output is tools. The real product is better judgment.
 
 AI removes the cost of building. What it can't replace is knowing which problem is worth solving.
 
