@@ -6,17 +6,13 @@ AI product leader with a decade building enterprise AI/ML products — bridging 
 
 ## What I Build & Why
 
-I start from what's hard to decide, not what's easy to build.
+The hardest part of building isn't the build — it's knowing which problem is worth solving.
 
-The right question isn't "what can AI do?" It's "where is someone making an important decision badly — with incomplete information, no process, or a workaround they've stopped questioning?"
+**People rarely ask for the right thing.** They ask for relief from a symptom. The real problem is usually one layer deeper — a workaround everyone has accepted, a spreadsheet doing the job of a system. That gap between what exists and what should exist is where I look for problems worth solving.
 
-**Look for where people are stuck, not where they're asking for help.** Real problems rarely announce themselves. They show up as things everyone accepts — a spreadsheet doing the job of a system, a manual process that grows with headcount instead of automating it. The tool that should exist doesn't, because no one stopped to ask why the workaround exists.
+**Information without a clear next action is just noise.** Every tool I build is designed around a specific decision: buy or pass, apply or skip, hold or restructure. If someone reads the output and still doesn't know what to do next, the design isn't finished.
 
-**Every output should enable a decision.** Not a dashboard. Not a report. A decision: buy or pass, apply or skip, hold or restructure. If someone reads the output and still doesn't know what to do next, the tool isn't finished.
-
-**Each project builds the judgment I bring to the next one.** Building a stock screener forces you to define what "good" looks like quantitatively. A retirement model forces you to make your assumptions about risk explicit. That accumulated understanding — of domains, tradeoffs, and where AI helps vs. misleads — is what sharpens the next product decision. The output is tools. The real product is better judgment.
-
-AI removes the cost of building. What it can't replace is knowing which problem is worth solving.
+**Building forces clarity that thinking alone doesn't.** Each project requires making assumptions explicit — what does "good" look like, which tradeoffs matter, where AI helps vs. misleads. That accumulates. The output is tools. The real product is sharper judgment on the next problem.
 
 → [Full framework: How I Build with AI](PHILOSOPHY.md)
 
