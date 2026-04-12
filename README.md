@@ -6,16 +6,14 @@ AI product leader with a decade building enterprise AI/ML products — bridging 
 
 ## What I Build & Why
 
-I build to collapse the gap between a problem I understand deeply and a solution that didn't exist before.
-
 **How I decide what to build**
-- **Personal domain fluency first** — I only build in domains where I have enough context to know when the output is wrong. Real estate, quant finance, and PM workflows are areas I've operated in, not researched.
-- **Structural problems over surface pain** — The signal is when a spreadsheet is load-bearing. If someone's critical decision-making lives in a fragile, manual artifact, there's a product gap.
-- **Insight as the moat** — AI levels implementation. What it can't replicate is judgment about which problem is worth solving, which tradeoff matters, and what "good" looks like in a specific domain.
-- **Compounding over features** — Each tool I build feeds the next. The stock screener informs the retirement model. The interview evaluator informs how I think about PM judgment frameworks.
 
-**The test I apply before building**
-> *If a capable engineer had infinite time, would they build this for themselves?* If yes, it's probably not differentiated. The interesting problems are the ones where domain knowledge — not engineering skill — is the bottleneck.
+Start from the outcome, not the solution. Before a line of code, I ask: what decision or action does this enable — and is that decision currently being made badly?
+
+- **Is the pain structural or symptomatic?** Symptomatic pain has workarounds. Structural pain means the workaround *is* the workflow — a spreadsheet doing the job of a system, a manual process that scales with headcount. That's the gap worth closing.
+- **Do I have the domain context to know when it's wrong?** I only build where I can evaluate the output without a spec. Finance, real estate, and PM practice are areas I've made real decisions in — which means I know what "off" looks like before a user tells me.
+- **What does the user actually need to do next?** The output isn't a dashboard or a report. It's a decision: buy or pass, apply or skip, restructure or hold. Every design choice should compress the time between data and action.
+- **Will this compound?** The best tools sharpen your thinking on the next problem. A retirement model that forces you to define your own assumptions is worth more than one that just runs the math.
 
 → [Full framework: How I Build with AI](PHILOSOPHY.md)
 
