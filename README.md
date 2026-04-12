@@ -6,7 +6,7 @@ AI product leader with a decade building enterprise AI/ML products — bridging 
 
 ## What I Build & Why
 
-Most tools are built around what's easy to build. I start from what's hard to decide.
+I start from what's hard to decide, not what's easy to build.
 
 The right question isn't "what can AI do?" It's "where is someone making an important decision badly — with incomplete information, no process, or a workaround they've stopped questioning?"
 
