@@ -55,7 +55,7 @@ Models net worth to age 100 from a YAML-defined balance sheet. Supports discrete
 <table width="100%">
   <tr>
     <td width="50%" align="center"><img src="screenshots/Stock1.png" height="200"/></td>
-    <td width="50%" align="center"><img src="screenshots/stock2.png" height="200"/></td>
+    <td width="50%" align="center"><img src="screenshots/Stock_Research.png" height="200"/></td>
   </tr>
 </table>
 
