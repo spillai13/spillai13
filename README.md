@@ -14,7 +14,7 @@ I build personal tools to pressure-test my mental models and stay sharp on where
 
 The hardest part of building isn't the build — it's knowing which problem is worth solving.
 
-→ [Full framework: How I Build with AI](PHILOSOPHY.md)
+→ [Full framework: How and What I Build](PHILOSOPHY.md)
 
 ---
 

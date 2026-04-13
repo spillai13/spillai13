@@ -1,8 +1,8 @@
-# How I Build with AI
+# How and What I Build
 
 ---
 
-## What to Build (The Product)
+## What I Build (The Product)
 
 Once you've identified the right problem, the next question is whether you understand it well enough to build for it. Most failed tools aren't badly built — they're built for a problem the builder didn't fully understand.
 
@@ -10,7 +10,7 @@ The discipline is staying close to the decision the user is trying to make, not 
 
 ---
 
-## How to Build (The Engine)
+## How I Build (The Engine)
 
 **The Knowledge Graph**
 LLMs are only as useful as the context they're given. A living map of the project — service relationships, data models, key decisions — gives the AI something to navigate rather than guess. Treat it as executable context: inject only the relevant sections based on what's currently in scope.
