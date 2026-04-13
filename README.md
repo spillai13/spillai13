@@ -1,6 +1,6 @@
 # Hey, I'm Spillai
 
-I build personal tools at the intersection of AI and finance to pressure-test my mental models and stay sharp on where AI adds leverage and where it breaks down. AI product leader with a decade building enterprise AI/ML products — bridging business strategy, data science, and systems architecture to drive measurable outcomes.
+I build personal tools to pressure-test my mental models and stay sharp on where AI adds leverage and where it breaks down. By trade, I'm a product leader with a decade across business, product, and engineering — focused on shipping AI products that create value.
 
 ---
 
