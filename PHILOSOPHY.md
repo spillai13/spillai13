@@ -4,71 +4,53 @@
 
 ## What to Build (The Product)
 
-The hardest part of building isn't the build — it's knowing which problem is worth solving.
+Once you've identified the right problem, the next question is whether you understand it well enough to build for it. Most failed tools aren't badly built — they're built for a problem the builder didn't fully understand.
 
-**Building forces clarity that thinking alone doesn't.**
-Every project requires making assumptions explicit — what does good look like, which tradeoffs matter, where AI helps vs. misleads. That accumulates into judgment you can't get any other way.
-
-**Good decisions are rarely a single moment.**
-They're the result of deep thinking, translating an observation into a hypothesis, testing it against reality, and iterating. Most tools deliver an answer. The ones worth building support the full cycle — from a messy observation to a confident, well-reasoned action.
-
-**People rarely ask for the right thing.**
-They ask for relief from a symptom. The real problem is usually one layer deeper — a workaround everyone has stopped questioning, a spreadsheet doing the job of a system. That gap between what exists and what should exist is where the problem worth solving lives.
-
-**Style (The Un-Promptable Quality)**
-Unconstrained, AI produces generic output. Enforcing style requires opinionated design systems and strict component libraries — forcing the AI to build with your blocks, not invent its own.
-
-**The Feedback Loop (Speed is Oxygen)**
-Idea → Prompt → Render → Critique must complete in under 10 seconds. Hot-reload and instant previews are not nice-to-haves; they are the conditions under which this workflow functions.
+The discipline is staying close to the decision the user is trying to make, not the feature they asked for. That requires restraint: fewer features, tighter scope, and a willingness to throw away a build when the original problem turns out to be the wrong one.
 
 ---
 
 ## How to Build (The Engine)
 
-The goal is an AI that has enough context to act autonomously, but enough constraint to avoid hallucinating the codebase into a corner.
-
-**Model Selection**
-Route by task: long-context models for architecture-level reasoning, faster/cheaper models for pattern completion. Cost and latency are engineering constraints, not afterthoughts.
-
-**Guardrails & Safety**
-Filter inputs at the boundary. Enforce guardrails at the API layer. Validate outputs with Golden Datasets and automated evals. Data masking ensures PII never reaches the LLM.
-
-**App Architecture**
-RAG over the codebase, prompt chaining, and tool integration. The retrieval layer is load-bearing — garbage context produces garbage output.
-
-**The Knowledge Graph (`lat.md`)**
-LLMs understand Markdown better than raw directory structures. A living `ARCHITECTURE.md` or `lat.md` that maps service relationships, data models, and business logic gives the AI a navigable map of the codebase. Treat it as executable context: inject relevant sections dynamically based on the files currently in scope.
-
-**Agent Skills (Beyond Autocomplete)**
-The AI needs hands. Shift from chat to agents with tool-calling: AST parsing, targeted file reads, terminal execution. The agent should read the error, run the grep, and propose the fix — not guess blindly.
+**The Knowledge Graph**
+LLMs are only as useful as the context they're given. A living map of the project — service relationships, data models, key decisions — gives the AI something to navigate rather than guess. Treat it as executable context: inject only the relevant sections based on what's currently in scope.
 
 **Context & Prompt Engineering**
-Context window pollution kills productivity. Separate the system prompt (architecture invariants) from the task prompt (the immediate feature). Use RAG to pull only relevant interfaces and functions — just-in-time, not just-in-case.
+What goes into the prompt determines what comes out. Separate the stable context (architecture, constraints) from the task-specific prompt (the immediate feature). Pull only what's relevant, just in time — not everything, just in case.
 
-**Evals for Generative Output**
-Three tiers:
-- Deterministic: unit and integration tests
-- Heuristic: linting and static analysis
-- LLM-as-Judge: a separate prompt that asks whether the output conforms to the style guide in `lat.md`
+**Guardrails & Safety**
+Right now I work primarily with public datasets, so safety is mostly about output quality — catching hallucinations, validating assumptions, not trusting generated code blindly. As the work scales into more sensitive data, the intent is to build proper guardrails: input filtering, output validation, and clear boundaries on what the model is and isn't allowed to do.
+
+**Model Selection**
+Not every task needs the most powerful model. Route by complexity: long-context models for architecture-level reasoning, faster and cheaper models for pattern completion. Cost and latency are real constraints, not afterthoughts.
+
+**Agent Skills**
+The most useful shift is from chat to agents with tools. An agent that can read a file, run a query, check an error, and propose a fix is categorically more useful than one that guesses. The goal is to give the AI hands, not just a voice.
 
 ---
 
 ## Forward
 
-**1. The Observer Pattern (Intent Capture)**
-The Context Cliff — where the AI forgets why a decision was made three sessions ago — is the biggest risk in long-running projects. An automated Librarian agent watches Git diffs and chat history to keep `lat.md` in sync with the actual state of the code, preserving intent, not just state.
+**App Architecture**
+The patterns that make AI applications production-ready: RAG for grounding outputs in real data, prompt chaining for multi-step reasoning, and tool integration for real-world actions. The retrieval layer is where most of the quality lives — the model is only as good as what you give it.
 
-**2. State Hydration & Checkpoints**
-Agents fail when they start with a blank slate or irrelevant noise. A Router should hydrate context before each task: pull only the necessary nodes from the knowledge graph and the last N relevant commits. Conceptually: `git checkout` for context.
+**Evals**
+How do you know if the output is actually good? Three layers: deterministic tests for factual correctness, heuristic checks for structure and style, and LLM-as-Judge for subjective quality — a second model that evaluates whether the output meets the standard set in the knowledge graph.
 
-**3. The Shadow Evaluator (Runtime Guardrails)**
-A background critic agent that doesn't write code — it evaluates the primary agent's output against security protocols and architecture constraints in real-time, preventing accidental key exposure or structural violations.
+**The Observer Pattern (Intent Capture)**
+The biggest risk in long-running AI projects is the context cliff — where the AI forgets why a decision was made three sessions ago. An automated agent that watches Git diffs and conversation history to keep the knowledge graph in sync with the actual state of the project preserves intent, not just state.
 
-**4. Multi-Modal Input (Omni-Channel Steering)**
-The IDE is not the only input surface. A voice memo on Telegram, transcribed and analyzed against the knowledge graph, should produce a prioritized ticket for the tech agent to execute in VS Code. The loop extends beyond the editor.
+**State Hydration & Checkpoints**
+Agents fail when they start with a blank slate or irrelevant noise. Before each task, a router should hydrate context: pull only the necessary nodes from the knowledge graph and the last relevant commits. Conceptually: `git checkout` for context.
 
-**5. Deterministic Routing (The Orchestrator)**
-Not every prompt warrants a full knowledge graph lookup. A Router classifies and dispatches:
-- Low stakes: simple completion → local model
-- Medium stakes: feature implementation → Claude/Gemini + RAG
-- High stakes: core architecture refactor → long-context model + full graph injection
+**The Shadow Evaluator**
+A background critic agent that doesn't write code — it evaluates the primary agent's output against security and architecture constraints in real time, catching structural violations before they compound.
+
+**Multi-Modal Input**
+The IDE is not the only input surface. A voice note, transcribed and evaluated against the knowledge graph, should be able to produce a prioritized task for the agent to execute. The loop extends beyond the editor.
+
+**Deterministic Routing**
+Not every prompt warrants a full knowledge graph lookup. A router classifies and dispatches by stakes:
+- Low: simple completion → local model
+- Medium: feature work → Claude/Gemini + RAG
+- High: architecture changes → long-context model + full graph
