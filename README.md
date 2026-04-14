@@ -1,6 +1,6 @@
 # Hey, I'm Spillai
 
-I'm a product leader with a decade across business, product, and engineering — focused on shipping products that create value. I build to pressure-test my mental models and stay sharp on where AI adds leverage and where it breaks down.
+I'm a product leader with a decade across product, business, and engineering — focused on shipping products that create value. I build to pressure-test my mental models and stay sharp on where AI adds leverage and where it breaks down.
 
 ---
 
